@@ -20,8 +20,18 @@ The model is trained on stress-labeled social media text and provides **real-tim
 - **Enhancement**:
   - Probability thresholding (≥ 0.7) to reduce false positives
 
-## model files (Huggin-face) 
-- https://huggingface.co/lavenhub/Stress_Detection_DistilBERT
+## model files: 
+Trained model files are hosted on Hugging Face: https://huggingface.co/lavenhub/Stress_Detection_DistilBERT
+
+## steps to test the model
+- download all the files from files and version option in hugging-face
+- put all the files except app.py and requirements.txt in a single forlder and name it stress_DistilBERT
+- save on the files in single folder loacally
+- set up the enviroment in command prompt for the given folder where the files are stored
+- run the command: pip install streamlit scikit-learn joblib
+- then execute: streamlit run app.py
+- local host will get directed to a webpage to test the model
+
 
 
 
